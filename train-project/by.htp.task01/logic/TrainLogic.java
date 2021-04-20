@@ -76,8 +76,11 @@ public class TrainLogic {
             if (train.getTrainNumber() == index) {
                 System.out.println(train);
             }
+            
         }
+        
     }
+    
 
 }
 
