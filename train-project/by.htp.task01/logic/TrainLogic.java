@@ -71,16 +71,14 @@ public class TrainLogic {
         }
 
         int index = scanner.nextInt();
-
         for (Train train : trainsList){
             if (train.getTrainNumber() == index) {
                 System.out.println(train);
             }
-            
-        }
-        
+        }     
     }
     
 
+    
 }
 
