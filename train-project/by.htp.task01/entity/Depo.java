@@ -11,11 +11,10 @@ public class Depo {
         trainsList = new ArrayList<Train>();
     }
 
-
     public Depo(List<Train> trainsList) {
         this.trainsList = trainsList;
     }
-
+    
     public void addTrain (Train train){
         trainsList.add(train);
     }
@@ -60,7 +59,6 @@ public class Depo {
             return false;
         return true;
     }
-
 
     @Override
     public String toString() {
